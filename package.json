@@ -1,0 +1,32 @@
+{
+  "name": "csc648-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "nodemonConfig": {
+    "ignore": ["*.json"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "@nestjs/common": "^8.4.1",
+    "discord-api-types": "^0.29.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "glob": "^7.2.0",
+    "googleapis": "^39.2.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.15",
+    "simple-json-db": "^2.0.0"
+  },
+  "devDependencies": {
+    "google-auth-library": "^7.14.0"
+  }
+}
